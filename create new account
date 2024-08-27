@@ -389,6 +389,7 @@ END
   END
 END
 
+==============strip quote from a word=============
  PROCEDURE STRIPQUOTE
  IF CHARACTERSEARCH(TMPCHR,"'")>0 THEN
   DO
